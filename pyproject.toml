@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "torch"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name='satnet'
+version='0.1.4'
+description = ""
+authors = [""]
+readme = "README.md"
+
+[tool.poetry.dependencies]  # main dependency group
+torch = "*"
